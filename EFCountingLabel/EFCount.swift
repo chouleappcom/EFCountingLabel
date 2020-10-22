@@ -25,7 +25,9 @@
 //  THE SOFTWARE.
 
 import Foundation
+import UIKit
 import QuartzCore
+import CoreGraphics
 
 public protocol EFTiming {
     func update(_ time: CGFloat) -> CGFloat

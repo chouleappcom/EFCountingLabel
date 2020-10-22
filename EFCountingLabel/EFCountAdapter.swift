@@ -26,6 +26,8 @@
 
 import Foundation
 import UIKit
+import QuartzCore
+import CoreGraphics
 
 public protocol EFCountAdapter: class, EFCount {
     var counter: EFCounter { get }
